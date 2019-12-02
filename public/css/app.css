@@ -1,9 +1,5 @@
-<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 @charset "UTF-8";
-=======
-@import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
->>>>>>> 27a95ecbcb94c9ccfc9cd7492881e467a929985c
 
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
@@ -39,11 +35,7 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-<<<<<<< HEAD
   --font-family-sans-serif: 'Poppins', sans-serif;
-=======
-  --font-family-sans-serif: "Nunito", sans-serif;
->>>>>>> 27a95ecbcb94c9ccfc9cd7492881e467a929985c
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
@@ -54,11 +46,7 @@
 }
 
 html {
-<<<<<<< HEAD
   font-family: 'Poppins', sans-serif;
-=======
-  font-family: sans-serif;
->>>>>>> 27a95ecbcb94c9ccfc9cd7492881e467a929985c
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -79,11 +67,7 @@ section {
 
 body {
   margin: 0;
-<<<<<<< HEAD
   font-family: 'Poppins', sans-serif;
-=======
-  font-family: "Nunito", sans-serif;
->>>>>>> 27a95ecbcb94c9ccfc9cd7492881e467a929985c
   font-size: 0.9rem;
   font-weight: 400;
   line-height: 1.6;
