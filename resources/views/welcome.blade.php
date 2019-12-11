@@ -84,9 +84,14 @@
                     Roles y Permisos
                 </div>
                 <div class="content">
-                    <div class="h3 m-b-md">
+                    <div class="h3">
                     Inicio:
                         26/11/2019
+                    </div>
+                <div class="content">
+                    <div class="h3 ">
+                    
+                    + Fecha: 11/12/2019   Release: 1.0a1
                     </div>
 
                 <div class="links">
