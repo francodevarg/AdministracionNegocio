@@ -4,7 +4,7 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <div class="card shadow-sm">
+            <div class="card shadow-lg">
                 <div class="card-header">
                     <h4>Lista de Usuarios</h4>
                 </div>
@@ -31,13 +31,13 @@
                                 
                                 <td>
                                     @can('users.show')
-                                    <a href="{{route('users.show',$user->id)}}" class="btn btn-light">Ver</a>
+                                    <a href="{{route('users.show',$user->id)}}" class="btn btn-primary">Ver</a>
                                     @endcan
                                 </td>
                                 
                                 <td>
                                     @can('users.edit')
-                                    <a href="{{route('users.edit',$user->id)}}" class="btn btn-outline-secondary">Editar</a>
+                                    <a href="{{route('users.edit',$user->id)}}" class="btn btn-outline-primary">Editar</a>
                                     @endcan
                                 </td>
                                 <td>
@@ -45,7 +45,7 @@
                                         {!! Form::open(['route' =>['users.destroy',$user->id], 
                                                         'method' => 'DELETE'])  !!}
 
-                                            <button class="btn btn-danger">
+                                            <button class="btn btn-outline-secondary">
                                                 Eliminar
                                             </button>
                                         {!! Form::close() !!}    

@@ -11,6 +11,6 @@
         {!! Form::text('description', null,['class' => 'form-control'])!!}
     </div>
     
-    {!! Form::submit('Guardar', ['class' => 'btn btn-primary']) !!}
+    {!! Form::submit('Guardar', ['class' => 'btn btn-success']) !!}
     
 </div>

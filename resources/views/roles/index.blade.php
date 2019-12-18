@@ -4,11 +4,11 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <div class="card shadow-sm">
+            <div class="card shadow-lg">
                 <div class="card-header">
                     <h4>Lista de Roles</h4>
                     @can('roles.create')
-                    <a href="{{route('roles.create')}}" class="btn btn-success">+ Crear</a>
+                    <a href="{{route('roles.create')}}" class="btn btn-success" style="color:white;">+ Crear</a>
                     @endcan
                     
                 </div>
@@ -35,13 +35,13 @@
                                 
                                 <td>
                                     @can('roles.show')
-                                    <a href="{{route('roles.show',$role->id)}}" class="btn btn-light">Ver</a>
+                                    <a href="{{route('roles.show',$role->id)}}" class="btn btn-primary">Ver</a>
                                     @endcan
                                 </td>
                                 
                                 <td>
                                     @can('roles.edit')
-                                    <a href="{{route('roles.edit',$role->id)}}" class="btn btn-outline-secondary">Editar</a>
+                                    <a href="{{route('roles.edit',$role->id)}}" class="btn btn-outline-primary">Editar</a>
                                     @endcan
                                 </td>
                                 <td>
@@ -49,7 +49,7 @@
                                         {!! Form::open(['route' =>['roles.destroy',$role->id], 
                                                         'method' => 'DELETE'])  !!}
 
-                                            <button class="btn btn-danger">
+                                            <button class="btn btn-outline-secondary">
                                                 Eliminar
                                             </button>
                                         {!! Form::close() !!}    
